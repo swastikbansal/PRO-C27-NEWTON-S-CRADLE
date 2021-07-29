@@ -8,12 +8,12 @@ class Suspender{
        pointB:{x:this.offsetX,y:this.offsetY}
        
         }
-        this.Suspender = Constraint.create(options);
-        World.add(world, this.Suspender);
+        this.suspender = Constraint.create(options);
+        World.add(world, this.suspender);
         }
         display(){
-            var pointA= this.Suspender.bodyA.position;
-            var pointB= this.Suspender.bodyB.position;
+            var pointA= this.suspender.bodyA.position;
+            var pointB= this.suspender.bodyB.position;
 
             //stroke(0);
             strokeWeight (1)
